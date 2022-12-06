@@ -98,7 +98,8 @@ a.link_to{
 
 .news-item{
     width: 400px;
-    padding-top: 10px ;
+    height: 400px;
+    padding: 10px ;
     display: flex;
     flex-direction: column;
     align-items: center;
