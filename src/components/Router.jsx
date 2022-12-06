@@ -6,15 +6,6 @@ import Posts from "../pages/Posts";
 import Profile from "../pages/Profile";
 
 const Router = () => {
-    // const {isAuth, isLoading} = useContext(AuthContext);
-    // console.log(isAuth);
-    // if(isLoading) {
-    //     return(
-    //         <Loader/>
-    //     )
-    // }
-
-
     if(localStorage.getItem('auth') === 'true'){
         return(
             <Routes>
